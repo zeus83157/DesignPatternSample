@@ -30,3 +30,8 @@ Design Pattern 一詞最早出現在 Gof (Gang of Four, GoF)的著作中, 在軟
 # C. Singleton
 
 確保只有單一實例存在.
+
+
+# D. Factory Method
+
+定義一個介面, 產生實例的工作交由該介面的實作類別執行, 外部由此介面獲得實例, 可降低外部對實作類別的耦合度.
