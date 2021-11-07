@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D006.SimpleFactory.TypeInRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D007.SimpleFactory.ConstructorInResource", "D007.SimpleFactory.ConstructorInResource\D007.SimpleFactory.ConstructorInResource.csproj", "{50DDEDD9-1115-47F5-A197-341AB229DC8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D008.GenericFactory", "D008.GenericFactory\D008.GenericFactory.csproj", "{608C350E-3421-48D0-AF72-25FF3AB85835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{50DDEDD9-1115-47F5-A197-341AB229DC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50DDEDD9-1115-47F5-A197-341AB229DC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50DDEDD9-1115-47F5-A197-341AB229DC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608C350E-3421-48D0-AF72-25FF3AB85835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608C350E-3421-48D0-AF72-25FF3AB85835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608C350E-3421-48D0-AF72-25FF3AB85835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608C350E-3421-48D0-AF72-25FF3AB85835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

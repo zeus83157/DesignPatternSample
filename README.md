@@ -37,3 +37,5 @@ Design Pattern 一詞最早出現在 Gof (Gang of Four, GoF) 的著作中, 在�
 定義一個介面, 產生實例的工作交由該介面的實作類別執行, 外部由此介面獲得實例, 可降低外部對實作類別的耦合度. 根據實作方式又可以分為參數化的 Simple Factory 及泛型化的 Generic Factory.
 
 其中 Simple Factory 因為有分支的問體, 可以選擇用資源搜尋法或是 Attribute 的方式決定要建立哪種實作類別的實例. 實作方式又可以選擇 Enum 對應 Type 或是 Enum 對應 Constructor Delegate.
+
+其中 Generic Factory 由外部直接傳入 AssemblyName 及 TypeName, 因其已經暴露太多訊息, 故實務上比較少用到, 另外 Generic Factory 可用來自建 DI 容器.
