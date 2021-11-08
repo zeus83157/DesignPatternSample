@@ -39,3 +39,11 @@ Design Pattern 一詞最早出現在 Gof (Gang of Four, GoF) 的著作中, 在�
 其中 Simple Factory 因為有分支的問體, 可以選擇用資源搜尋法或是 Attribute 的方式決定要建立哪種實作類別的實例. 實作方式又可以選擇 Enum 對應 Type 或是 Enum 對應 Constructor Delegate.
 
 其中 Generic Factory 由外部直接傳入 AssemblyName 及 TypeName, 因其已經暴露太多訊息, 故實務上比較少用到, 另外 Generic Factory 可用來自建 DI 容器.
+
+# E. Abstract Factory
+
+針對一整族相關的物件定義介面, 外部透過該介面取得一整族物件, 而不需要指定他們的型別, 適用於整族切換.
+
+產品的一般化依照垂直關係定義抽象(從屬關係), 如手機與充電器.
+
+工廠的一般化依照水平關係定義抽象(非從屬關係), 如第一世代與第二世代.
