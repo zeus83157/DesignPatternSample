@@ -11,8 +11,7 @@ namespace F002.TemplateMethod.Delegate
         static void Main(string[] args)
         {
             var source = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            BasePredicate<int> predicate = new Predicate(source);
-            predicate.DoWhere().ToList().ForEach(x => { Console.WriteLine(x); });
+            source.DoWhere(x => x < 3).ToList().ForEach(x => { Console.WriteLine(x); });
 
             Console.ReadLine();
         }
