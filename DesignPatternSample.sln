@@ -51,6 +51,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I002.State.Interface", "I00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I003.State.GetInstanceWithRegistryOfSingleton", "I003.State.GetInstanceWithRegistryOfSingleton\I003.State.GetInstanceWithRegistryOfSingleton.csproj", "{986F867B-BA9E-4DC2-99F9-74301946EA94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J001.Prototype", "J001.Prototype\J001.Prototype.csproj", "{F27D382C-72C7-4AD8-AFED-94DAA433248C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J002.Prototype.Dotnet", "J002.Prototype.Dotnet\J002.Prototype.Dotnet.csproj", "{B68ECA2F-7205-4772-93DE-A4F953A7536A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J003.Prototype.Serialize", "J003.Prototype.Serialize\J003.Prototype.Serialize.csproj", "{8C2BD6CB-DEBC-473D-BBD8-7F05E6A49678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J004.Prototype.DeepCloneWithDotnet", "J004.Prototype.DeepCloneWithDotnet\J004.Prototype.DeepCloneWithDotnet.csproj", "{E4442EF0-5256-4273-9DC1-9DBDC2D9C054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J005.Prototype.DeepCloneWithSerialize", "J005.Prototype.DeepCloneWithSerialize\J005.Prototype.DeepCloneWithSerialize.csproj", "{A0A0BB3B-C37B-4C1A-84AB-6D25EE8C5A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J006.Prototype.Extension", "J006.Prototype.Extension\J006.Prototype.Extension.csproj", "{0AFB4A37-DE3F-47F2-A7C7-DC6F872B2C68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +165,30 @@ Global
 		{986F867B-BA9E-4DC2-99F9-74301946EA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986F867B-BA9E-4DC2-99F9-74301946EA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986F867B-BA9E-4DC2-99F9-74301946EA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27D382C-72C7-4AD8-AFED-94DAA433248C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27D382C-72C7-4AD8-AFED-94DAA433248C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27D382C-72C7-4AD8-AFED-94DAA433248C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27D382C-72C7-4AD8-AFED-94DAA433248C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68ECA2F-7205-4772-93DE-A4F953A7536A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68ECA2F-7205-4772-93DE-A4F953A7536A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68ECA2F-7205-4772-93DE-A4F953A7536A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68ECA2F-7205-4772-93DE-A4F953A7536A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2BD6CB-DEBC-473D-BBD8-7F05E6A49678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2BD6CB-DEBC-473D-BBD8-7F05E6A49678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2BD6CB-DEBC-473D-BBD8-7F05E6A49678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2BD6CB-DEBC-473D-BBD8-7F05E6A49678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4442EF0-5256-4273-9DC1-9DBDC2D9C054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4442EF0-5256-4273-9DC1-9DBDC2D9C054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4442EF0-5256-4273-9DC1-9DBDC2D9C054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4442EF0-5256-4273-9DC1-9DBDC2D9C054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A0BB3B-C37B-4C1A-84AB-6D25EE8C5A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A0BB3B-C37B-4C1A-84AB-6D25EE8C5A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A0BB3B-C37B-4C1A-84AB-6D25EE8C5A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A0BB3B-C37B-4C1A-84AB-6D25EE8C5A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFB4A37-DE3F-47F2-A7C7-DC6F872B2C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFB4A37-DE3F-47F2-A7C7-DC6F872B2C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFB4A37-DE3F-47F2-A7C7-DC6F872B2C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFB4A37-DE3F-47F2-A7C7-DC6F872B2C68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
