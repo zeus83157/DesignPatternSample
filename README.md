@@ -102,7 +102,7 @@ Dotnet 內建 ICloneable Interface.
 
 # M. Proxy
 
-透過一物件操作目標物件, 透過這種方式以取代原本的功能, 並加入額外功能。
+透過一物件操作目標物件, 透過這種方式以取代原本的功能, 並加入額外功能。此處示範 Transparent Proxy
 
 1. Remote Proxy
 2. virtual Proxy
@@ -110,3 +110,12 @@ Dotnet 內建 ICloneable Interface.
 4. Smart Reference
 
 Proxy 與 Decorator 很像, 有時分別不會那麼明顯, 例如要在某個物件上加 Log。但 Proxy 不會像 Decorator 層層套疊。Proxy 關注的是對原有類別的代理, Proxy 可完全取代原有類別。Decorator 關注擴充原有類別。
+
+
+# M. Builder
+
+將物件建立的過程抽象, 使得同樣的建立過程可以有不同的配置。
+
+Fatory 關注的是集中建立 Instance。
+
+Builder 關注的是建立的子模組及建立流程。
