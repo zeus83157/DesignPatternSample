@@ -98,3 +98,15 @@ Dotnet 內建 ICloneable Interface.
 為物件動態擴充空能且可以層層套疊, 注意, 是將職責加入到實例而非類別, 很符合 OOP 擴充的特性。
 
 舊有的物件即便不可修改程式碼也可以透過 Adapter 來持有共同抽象以完成 Decorator。
+
+
+# M. Proxy
+
+透過一物件操作目標物件, 透過這種方式以取代原本的功能, 並加入額外功能。
+
+1. Remote Proxy
+2. virtual Proxy
+3. Protectuib Proxy
+4. Smart Reference
+
+Proxy 與 Decorator 很像, 有時分別不會那麼明顯, 例如要在某個物件上加 Log。但 Proxy 不會像 Decorator 層層套疊。Proxy 關注的是對原有類別的代理, Proxy 可完全取代原有類別。Decorator 關注擴充原有類別。
