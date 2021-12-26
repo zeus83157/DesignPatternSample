@@ -119,3 +119,10 @@ Proxy 與 Decorator 很像, 有時分別不會那麼明顯, 例如要在某個�
 Fatory 關注的是集中建立 Instance。
 
 Builder 關注的是建立的子模組及建立流程。
+
+
+# O. Command
+
+命令請求端不直接操作執行端, 從而讓請求端與執行端解耦。
+
+Invoker 操作複數 Receiver 即為 Macro Command。
